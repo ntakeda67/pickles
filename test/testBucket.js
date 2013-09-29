@@ -1,12 +1,13 @@
 TestCase('Bucket Test', {
-    'test Bucket': function() {
-        // setup
-        var expectedProduction = 1;
+    'test initialized, production is 0.': function() {
+        var actualBucket = new Bucket(100, 1);
 
-        // exercise
-        var actualBucket = Bucket(100);
+        assertEquals(0, actualBucket.getProducts());
+    },
+    'test run at once, production is increased.': function() {
+        var actualBucket = new Bucket(100, 2);
+	actualBucket.run();
 
-        // verify
-        assertEquals(1, acutualBucket.production);
+        assertEquals(2, actualBucket.getProducts());
     }
 });
