@@ -1,11 +1,13 @@
 var Pickles = (function(){
     function Pickles(name, maturingTime){
+	// private fields
 	var _name = name;
 	var _maturingTime = maturingTime;
         var _product = 0;
         var _duration = 0;
 
 	return {
+	    // public methods
 	    getName: function(){
 		return _name;
 	    },
