@@ -8,7 +8,7 @@ TestCase('Pickles Test', {
     'test done matured, then increase production.': function() {
 	var maturingTime = 100;
         var actualPickles = new Pickles("material B", maturingTime);
-	for(var i =0 ; i<maturingTime; i++){
+	for(var i =0 ; i<maturingTime-1; i++){
 	    actualPickles.mature();
             assertEquals("matured " + i + " times", 0, actualPickles.getProduct());
 	}

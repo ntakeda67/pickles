@@ -17,7 +17,7 @@ var Pickles = (function(){
 	     */
 	    mature: function(){
 		_duration +=1;
-		if(_duration > _maturingTime){
+		if(_duration >= _maturingTime){
 		    _product +=1;
 		    _duration = 0;
 		}
