@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="Chrome_290154776_Mac_OS.Pickles Test" errors="0" failures="0" tests="2" time="0.0">
+<testcase classname="Chrome_290154776_Mac_OS.Pickles Test" name="test initialized, production is 0." time="0.0"/>
+<testcase classname="Chrome_290154776_Mac_OS.Pickles Test" name="test done matured, then increase production." time="0.0"/>
+</testsuite>

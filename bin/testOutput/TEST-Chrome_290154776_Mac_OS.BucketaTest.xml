@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="Chrome_290154776_Mac_OS.Bucket Test" errors="0" failures="0" tests="2" time="0.001">
+<testcase classname="Chrome_290154776_Mac_OS.Bucket Test" name="test when initialized, production is 0." time="0.0"/>
+<testcase classname="Chrome_290154776_Mac_OS.Bucket Test" name="test multiple mature, production is increased." time="0.001"/>
+</testsuite>

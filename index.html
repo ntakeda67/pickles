@@ -1,0 +1,39 @@
+<!Doctype html>
+<html>
+<head>Pickler</head>
+<body>
+
+<div id="gameInfo">
+  <div>
+    <span>Productions (Total):</span>
+    <span id="totalProductions"></span>
+    <span> [pickles]</span>
+  </div>
+  <div>
+    <span>Elapse Time (Real):</span>
+    <span id="realElapseTime"></span>
+    <span> [sec]</span>
+  </div>
+  <div>
+    <span>Elapse Time (Game):</span>
+    <span id="gameElapseTime"></span>
+  </div>
+  <div>
+    <span>Products Pickles Per Second (Whole Game Time):</span>
+    <span id="totalPPS"></span>
+    <span> [pps]</span>
+  </div>
+</div>
+
+<input id="shake" type="button" value="Shake"></input>
+
+<div id="productions">
+</div>
+
+
+<script type="text/javascript" src="./plugins/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="./src/Bucket.js"></script>
+<script type="text/javascript" src="./src/Pickles.js"></script>
+<script type="text/javascript" src="./pickler.js"></script>
+</body>
+</html>
